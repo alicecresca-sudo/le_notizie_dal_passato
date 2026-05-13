@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi Siamo — Le Notizie dal Passato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Playfair+Display:wght@600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-inner">
+        <a class="logo" href="index.html">
+          <svg
+            class="site-logo-icon"
+            width="22"
+            height="28"
+            viewBox="0 0 22 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path d="M2 2 L20 2 L11 14 Z" fill="currentColor" opacity="0.85" />
+            <path d="M2 26 L20 26 L11 14 Z" fill="currentColor" opacity="0.85" />
+            <rect x="1" y="1" width="20" height="2.5" rx="1" fill="currentColor" />
+            <rect x="1" y="24.5" width="20" height="2.5" rx="1" fill="currentColor" />
+            <circle cx="11" cy="22" r="2" fill="currentColor" opacity="0.5" />
+          </svg>
+          Le Notizie dal Passato
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Apri menu di navigazione"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav aria-label="Principale">
+          <ul id="nav-menu" class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="page-title">Chi Siamo</h1>
+      <p class="page-intro">
+        Siamo cinque studenti appassionati di storia e comunicazione. Questo progetto nasce dalla voglia di rendere il passato più vicino, più urgente, più vivo.
+      </p>
+
+      <div class="team-grid">
+        <article class="team-card">
+          <div class="avatar" aria-hidden="true">AC</div>
+          <h3>Alice Cresca</h3>
+          <p class="role">Redattrice capo</p>
+        </article>
+        <article class="team-card">
+          <div class="avatar" aria-hidden="true">AD</div>
+          <h3>Andrea De Mare</h3>
+          <p class="role">Web designer</p>
+        </article>
+        <article class="team-card">
+          <div class="avatar" aria-hidden="true">CP</div>
+          <h3>Cecilia Patrucco</h3>
+          <p class="role">Ricercatrice storica</p>
+        </article>
+        <article class="team-card">
+          <div class="avatar" aria-hidden="true">RN</div>
+          <h3>Rossana Negri</h3>
+          <p class="role">Grafica e impaginazione</p>
+        </article>
+        <article class="team-card">
+          <div class="avatar" aria-hidden="true">LZ</div>
+          <h3>Lorenzo Zelli</h3>
+          <p class="role">Editor e revisione testi</p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="footer-brand">Le Notizie dal Passato</p>
+        <p>Progetto scolastico — Storia come non l'hai mai letta.</p>
+        <p>© 2026 — Alice Cresca, Andrea De Mare, Cecilia Patrucco, Lorenzo Zelli, Rossana Negri</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

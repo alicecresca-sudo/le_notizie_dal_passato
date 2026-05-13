@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articoli — Le Notizie dal Passato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Playfair+Display:wght@600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-inner">
+        <a class="logo" href="index.html">
+          <svg
+            class="site-logo-icon"
+            width="22"
+            height="28"
+            viewBox="0 0 22 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path d="M2 2 L20 2 L11 14 Z" fill="currentColor" opacity="0.85" />
+            <path d="M2 26 L20 26 L11 14 Z" fill="currentColor" opacity="0.85" />
+            <rect x="1" y="1" width="20" height="2.5" rx="1" fill="currentColor" />
+            <rect x="1" y="24.5" width="20" height="2.5" rx="1" fill="currentColor" />
+            <circle cx="11" cy="22" r="2" fill="currentColor" opacity="0.5" />
+          </svg>
+          Le Notizie dal Passato
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Apri menu di navigazione"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav aria-label="Principale">
+          <ul id="nav-menu" class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="page-title">Articoli</h1>
+      <p class="page-intro">Sette momenti decisivi della storia, dall'estinzione dei dinosauri alla Guerra Fredda.</p>
+
+      <article class="card list-card">
+        <div class="card__media">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chicxulub_impact_-_artist_impression.jpg/960px-Chicxulub_impact_-_artist_impression.jpg"
+            alt="Illustrazione artistica dell'impatto dell'asteroide sul pianeta Terra"
+            loading="lazy"
+            class="article-image"
+            onerror="this.style.background='#EDE8DC'"
+          />
+        </div>
+        <div class="card__body">
+          <span class="article-tag">CATASTROFE GLOBALE</span>
+          <p class="card__meta">circa 66 milioni di anni fa</p>
+          <h2 class="card__title">
+            <a href="articolo-1.html">IMPATTO GLOBALE: un enorme asteroide colpisce la Terra, estinzione di massa in corso</a>
+          </h2>
+          <p class="card__excerpt">
+            Un evento catastrofico ha colpito il pianeta Terra: un enorme asteroide si è schiantato sulla superficie terrestre provocando conseguenze devastanti su scala globale. L'impatto ha generato incendi e cambiamenti climatici improvvisi.
+          </p>
+          <a class="card__link" href="articolo-1.html">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card list-card">
+        <div class="card__media">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vincenzo_Camuccini_-_La_morte_di_Cesare.jpg/960px-Vincenzo_Camuccini_-_La_morte_di_Cesare.jpg"
+            alt="Dipinto storico dell'assassinio di Giulio Cesare al Senato di Roma"
+            loading="lazy"
+            class="article-image"
+            onerror="this.style.background='#EDE8DC'"
+          />
+        </div>
+        <div class="card__body">
+          <span class="article-tag">ULTIMA ORA</span>
+          <p class="card__meta">15 marzo 44 a.C.</p>
+          <h2 class="card__title">
+            <a href="articolo-2.html">ULTIMA ORA: Giulio Cesare assassinato al Senato di Roma</a>
+          </h2>
+          <p class="card__excerpt">
+            Roma è sotto shock dopo l'assassinio di Gaio Giulio Cesare avvenuto durante una seduta del Senato. Secondo le ricostruzioni storiche, un gruppo di senatori congiurati ha attaccato Cesare con più colpi di pugnale.
+          </p>
+          <a class="card__link" href="articolo-2.html">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card list-card">
+        <div class="card__media">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/First_voyage_of_Columbus_to_America.jpg/960px-First_voyage_of_Columbus_to_America.jpg"
+            alt="Illustrazione dello sbarco di Cristoforo Colombo nelle Americhe, 1492"
+            loading="lazy"
+            class="article-image"
+            onerror="this.style.background='#EDE8DC'"
+          />
+        </div>
+        <div class="card__body">
+          <span class="article-tag">SCOPERTA STORICA</span>
+          <p class="card__meta">12 ottobre 1492</p>
+          <h2 class="card__title">
+            <a href="articolo-3.html">NUOVO MONDO SCOPERTO: le navi europee raggiungono una terra sconosciuta</a>
+          </h2>
+          <p class="card__excerpt">
+            Un evento destinato a cambiare per sempre la storia del mondo è avvenuto nelle ultime ore: le navi guidate da Cristoforo Colombo hanno raggiunto una nuova terra oltre l'Oceano Atlantico.
+          </p>
+          <a class="card__link" href="articolo-3.html">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card list-card">
+        <div class="card__media">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Prise_de_la_Bastille.jpg/960px-Prise_de_la_Bastille.jpg"
+            alt="Incisione storica della presa della Bastiglia, Parigi 1789"
+            loading="lazy"
+            class="article-image"
+            onerror="this.style.background='#EDE8DC'"
+          />
+        </div>
+        <div class="card__body">
+          <span class="article-tag">RIVOLTA IN CORSO</span>
+          <p class="card__meta">14 luglio 1789</p>
+          <h2 class="card__title">
+            <a href="articolo-4.html">PARIGI IN RIVOLTA: assaltata la Bastiglia, crolla il simbolo del potere reale</a>
+          </h2>
+          <p class="card__excerpt">
+            Situazione esplosiva a Parigi, dove migliaia di cittadini hanno preso d'assalto la prigione-fortezza della Bastiglia, simbolo del potere monarchico francese.
+          </p>
+          <a class="card__link" href="articolo-4.html">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card list-card">
+        <div class="card__media">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/WW1_TitlePicture_For_Wikipedia_Article.jpg/960px-WW1_TitlePicture_For_Wikipedia_Article.jpg"
+            alt="Fotografia d'epoca della Prima Guerra Mondiale, fronte occidentale"
+            loading="lazy"
+            class="article-image"
+            onerror="this.style.background='#EDE8DC'"
+          />
+        </div>
+        <div class="card__body">
+          <span class="article-tag">CONFLITTO MONDIALE</span>
+          <p class="card__meta">28 luglio 1914</p>
+          <h2 class="card__title">
+            <a href="articolo-5.html">EUROPA VERSO LA GUERRA: dopo l'attentato di Sarajevo scatta il conflitto globale</a>
+          </h2>
+          <p class="card__excerpt">
+            Le tensioni in Europa sono ufficialmente esplose in un conflitto su scala continentale. Dopo l'assassinio dell'arciduca Francesco Ferdinando a Sarajevo, le principali potenze europee stanno entrando in guerra.
+          </p>
+          <a class="card__link" href="articolo-5.html">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card list-card">
+        <div class="card__media">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bundesarchiv_Bild_183-S55480%2C_Polen%2C_Panzer_im_Gel%C3%A4nde.jpg/960px-Bundesarchiv_Bild_183-S55480%2C_Polen%2C_Panzer_im_Gel%C3%A4nde.jpg"
+            alt="Fotografia dell'invasione tedesca della Polonia, settembre 1939"
+            loading="lazy"
+            class="article-image"
+            onerror="this.style.background='#EDE8DC'"
+          />
+        </div>
+        <div class="card__body">
+          <span class="article-tag">GUERRA DICHIARATA</span>
+          <p class="card__meta">1 settembre 1939</p>
+          <h2 class="card__title">
+            <a href="articolo-6.html">SCOPPIA UN NUOVO CONFLITTO MONDIALE: la Germania invade la Polonia</a>
+          </h2>
+          <p class="card__excerpt">
+            Il mondo precipita nuovamente in guerra. Le forze tedesche hanno attraversato il confine polacco dando inizio a un nuovo conflitto su scala globale.
+          </p>
+          <a class="card__link" href="articolo-6.html">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card list-card">
+        <div class="card__media">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Berlinermauer.jpg/960px-Berlinermauer.jpg"
+            alt="Fotografia del Muro di Berlino durante la Guerra Fredda"
+            loading="lazy"
+            class="article-image"
+            onerror="this.style.background='#EDE8DC'"
+          />
+        </div>
+        <div class="card__body">
+          <span class="article-tag">TENSIONE GLOBALE</span>
+          <p class="card__meta">circa 1947–1991</p>
+          <h2 class="card__title">
+            <a href="articolo-7.html">IL MONDO DIVISO: inizia la lunga Guerra Fredda tra Stati Uniti e Unione Sovietica</a>
+          </h2>
+          <p class="card__excerpt">
+            Dopo la fine della Seconda Guerra Mondiale, il mondo entra in una nuova fase di tensione globale: gli Stati Uniti e l'Unione Sovietica emergono come superpotenze contrapposte.
+          </p>
+          <a class="card__link" href="articolo-7.html">Leggi l'articolo →</a>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="footer-brand">Le Notizie dal Passato</p>
+        <p>Progetto scolastico — Storia come non l'hai mai letta.</p>
+        <p>© 2026 — Alice Cresca, Andrea De Mare, Cecilia Patrucco, Lorenzo Zelli, Rossana Negri</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
